@@ -46,14 +46,6 @@ export function Contact() {
         </div>
       </div>
 
-      <footer className="mt-32 border-t border-hairline pt-8 px-0 lg:px-0">
-        <div className="grid grid-cols-12 gap-6">
-          <div className="col-span-12 lg:col-span-8 lg:col-start-2 flex flex-col gap-2 font-mono text-eyebrow text-muted">
-            <p>Built with Next.js · {new Date().getFullYear()}</p>
-            <p>Set in Bricolage Grotesque, Geist Sans and Geist Mono.</p>
-          </div>
-        </div>
-      </footer>
     </section>
   );
 }
